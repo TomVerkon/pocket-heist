@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react"
 import { describe, it, expect } from "vitest"
 
 // component imports
-import Navbar from "@/components/Navbar"
+import Navbar from "@/app/components/Navbar";
 
 describe("Navbar", () => {
   it("renders the main heading", () => {
